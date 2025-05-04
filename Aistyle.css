@@ -217,7 +217,7 @@
           }
           
           /* Styles for mobile phones with a max width of 480px */
-          @media (max-width: 500px) {
+          @media (max-width: 480px) {
             body {
               font-size: 14px;
             }
@@ -226,7 +226,7 @@
             }
             main {
                 width: 80%;
-                margin-top:  90px;
+                margin-top:  40px;
                 justify-content: center;
             }
             .chat-container {
@@ -249,7 +249,7 @@
             }
             input[type="text"] {
                width: auto;
-               max-width: 100%;
+               max-width: 70%;
             }
           }
           .input-container {
@@ -263,7 +263,7 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
             
             position: fixed;
-            bottom: 50px; /* distance from bottom */
+            bottom: 30px; /* distance from bottom */
             left: 50%;
             transform: translateX(-50%);
             
