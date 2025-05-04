@@ -232,7 +232,7 @@
             .chat-container {
                 margin: 0;
                 max-width: 90%;
-                max-height: 300px;
+                max-height: 400px;
                 padding: 10px;
             }
             .chat-message {
